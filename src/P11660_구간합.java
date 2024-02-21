@@ -31,6 +31,7 @@ public class P11660_구간합 {
             int y2 = Integer.parseInt(st.nextToken());
             result = S[x2][y2] - S[x1-1][y2] - S[x2][y1-1] + S[x1-1][y1-1];
             System.out.println(result);
+            // 이차원 배열 이나 구간합이 나오면 다시 확인 해볼  문제
         }
     }
 }
