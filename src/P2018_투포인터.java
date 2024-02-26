@@ -28,7 +28,7 @@ public class P2018_투포인터 {
             else if(sum<n)
             {
                 end++;
-                sum=sum+end;
+                sum=sum+end; // 투포인터
             }
         }
         System.out.println(count);
