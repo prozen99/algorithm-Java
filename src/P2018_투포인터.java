@@ -12,17 +12,17 @@ public class P2018_투포인터 {
 
         while(end!=n) //end값이 n이 아닐때까지 뭐 이미 count 1로 초기화 해놓은 경우가 있으니까 하나를 빼야함.
         {
-            if(sum==n)
+            if(sum==n)  // 만약 합이 같으면
             {
-                end++;
-                count++;
-                sum=sum+end;
+                end++; // end pointer를 하나 뒤로 밀면됨
+                count++; // 정답 개수를 맞추고
+                sum=sum+end; // 합은 ex) 1,2,3,4,5 라하면 => 1,2,3,4,5,6 으로 두고 합은 21
 
             }
             else if(sum>n)
             {
-                sum=sum-start;//
-                start++;
+                sum=sum-start;// 합이 21 이고 n이 15면 스타트 포인트를 올려서 앞의 노드 삭제
+                start++; //2,3,4,5,6  3,4,5,6 4,5,6, 등등으로 전개.
 
             }
             else if(sum<n)
