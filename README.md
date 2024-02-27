@@ -1,2 +1,2 @@
-구간합을 이용하는 두개의 문제 활용하기
-(Do it ) 책 출처.
+
+Do it Java Code test 확인 
