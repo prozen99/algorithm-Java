@@ -23,7 +23,7 @@ public class P1037_약수 {
                 max=a[i];
             }
             if(a[i]<min)
-            {
+            {//ㅇㅇ
                 min=a[i];
             }
 
