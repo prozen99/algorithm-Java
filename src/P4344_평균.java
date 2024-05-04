@@ -37,7 +37,8 @@ public class P4344_평균 {
             //
 
 
-            System.out.printf("%.3f%%\n",p*100);
+            System.out.printf("%.3f%%  \n",p*100);
+            System.out.println("abc\"de"); //
 
 
         }

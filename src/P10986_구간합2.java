@@ -13,7 +13,7 @@ public class P10986_구간합2 {
         s[0]=scanner.nextInt();
         for (int i = 1; i < N; i++) {
             a[i]=scanner.nextInt();
-            s[i]=s[i-1]+a[i]; // 합배열 완성
+            s[i]=s[i-1]+a[i]; // 합배열 완성 ㅇㅇ
         }
 
         for (int i = 0; i < N; i++) {
